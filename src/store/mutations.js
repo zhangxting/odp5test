@@ -9,6 +9,7 @@ export default {
     // CHANGE_GAMELIST(state, gameList) {
     //     state.gameList = gameList;
     //     state.gameList = gameList;
+    //     state.gameList = gameList;
     // },
     [CHANGE_PAGE](state, page) {
         state.page = page;
