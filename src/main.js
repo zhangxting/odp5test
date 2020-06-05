@@ -1,10 +1,13 @@
 import Vue from "vue";
-import App from "./view/App.vue";
 import store from "./store";
-
 Vue.config.productionTip = false;
 
-new Vue({
-    store,
-    render: h => h(App)
-}).$mount("#app");
+export default {
+    mount(App, page = "index") {
+        store.commit("CHANGE_PAGE", page);
+        new Vue({
+            store,
+            render: h => h(App)
+        }).$mount("#app");
+    }
+};
