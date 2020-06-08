@@ -1,0 +1,17 @@
+<template>
+    <div class="leftnav">wsqwsqw</div>
+</template>
+
+<script>
+export default {
+    name: "leftNav"
+};
+</script>
+
+<style scoped lang="scss">
+.leftnav {
+    background: darkcyan;
+    width: 200px;
+    height: 100%;
+}
+</style>
