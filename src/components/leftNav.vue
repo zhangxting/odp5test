@@ -1,5 +1,5 @@
 <template>
-    <div class="leftnav">wsqwsqw</div>
+    <el-aside class="leftnav">wsqwsqw</el-aside>
 </template>
 
 <script>

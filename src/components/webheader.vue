@@ -1,5 +1,5 @@
 <template>
-    <div class="webheader">dxwdsw</div>
+    <el-header class="webheader">dxwdsw</el-header>
 </template>
 
 <script>
@@ -11,7 +11,5 @@ export default {
 <style scoped lang="scss">
 .webheader {
     background: cornflowerblue;
-    width: 100%;
-    height: 100%;
 }
 </style>
