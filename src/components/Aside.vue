@@ -12,6 +12,6 @@ export default {
 .leftnav {
     background: darkcyan;
     width: 200px;
-    height: 100%;
+    height: 100vh;
 }
 </style>
