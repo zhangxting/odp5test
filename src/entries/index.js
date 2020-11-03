@@ -1,4 +1,4 @@
 import app from "../main";
-import views from "../view/App.vue";
+import views from "../views/App.vue";
 
 app.mount(views, "App");
