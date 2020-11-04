@@ -1,7 +1,10 @@
 <template>
     <div class="home">
+        <!--123-->
         <img alt="Vue logo" src="../assets/logo.png" />
-        lallalala
+        <router-view />
+        <!--lallalala-->
+        <!--<div>{{ $route.name }}</div>-->
     </div>
 </template>
 

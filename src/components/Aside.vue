@@ -1,15 +1,19 @@
 <template>
     <el-aside class="leftnav">
         <div id="nav">
-            <router-link to="/">Home</router-link>
-            <router-link to="/about">About</router-link>
+            <router-link to="/home">基础信息匹配</router-link>
+            <router-link to="/home/jichu">基础配置</router-link>
+            <router-link to="/about">SDK配置发行</router-link>
         </div>
     </el-aside>
 </template>
 
 <script>
 export default {
-    name: "leftNav"
+    name: "leftNav",
+    created() {
+        console.log(this.$route.query);
+    }
 };
 </script>
 

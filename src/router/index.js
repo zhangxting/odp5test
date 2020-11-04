@@ -1,19 +1,23 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
-
+//import GameInfoConf from "../views/GameInfoConf.vue";
 Vue.use(VueRouter);
 
 const routes = [
     {
-        path: "/",
+        path: "/home",
         name: "游戏信息配置",
         component: Home,
         children: [
             {
                 path: "jichu",
-                name: "游戏信息配置",
-                component: Home
+                name: "游戏基础配置",
+                // component: GameInfoConf,
+                component: () =>
+                    import(
+                        /* webpackChunkName: "about" */ "../views/GameInfoConf.vue"
+                    )
             },
             {
                 path: "canshu",
@@ -39,23 +43,18 @@ const routes = [
             import(/* webpackChunkName: "about" */ "../views/About.vue"),
         children: [
             {
-                path: "jichu",
-                name: "游戏信息配置",
+                path: "sokpei",
+                name: "SDK配置文件",
                 component: Home
             },
             {
-                path: "canshu",
-                name: "游戏参数配置",
+                path: "faxin",
+                name: "发行管理",
                 component: Home
             },
             {
-                path: "baomin",
-                name: "包名计划管理",
-                component: Home
-            },
-            {
-                path: "fu",
-                name: "服列表管理",
+                path: "adjust",
+                name: "adjust token",
                 component: Home
             }
         ]
