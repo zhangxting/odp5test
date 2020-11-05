@@ -1,6 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
+import error404 from "../views/error404";
 //import GameInfoConf from "../views/GameInfoConf.vue";
 Vue.use(VueRouter);
 
@@ -58,6 +59,11 @@ const routes = [
                 component: Home
             }
         ]
+    },
+    {
+        path: "*",
+        name: "adjust token",
+        component: error404
     }
 ];
 

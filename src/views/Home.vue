@@ -2,6 +2,7 @@
     <div class="home">
         <!--123-->
         <img alt="Vue logo" src="../assets/logo.png" />
+        1231
         <router-view />
         <!--lallalala-->
         <!--<div>{{ $route.name }}</div>-->
