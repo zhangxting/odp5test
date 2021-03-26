@@ -22,6 +22,7 @@ export default {
 
 <style scoped lang="scss">
 .leftnav {
+    color: #ccc;
     width: 200px;
     height: 100vh;
     border-right: 1px solid #cdcdcd;
