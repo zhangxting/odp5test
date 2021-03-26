@@ -9,5 +9,8 @@ export default {
     },
     [types.CHANGE_PAGE](state, page) {
         state.page = page;
+    },
+    [types.CHANGE_LEFTOPEN](state, asidedBtn) {
+        state.asidedBtn = asidedBtn;
     }
 };

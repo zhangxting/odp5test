@@ -14,7 +14,6 @@ const routes = [
             {
                 path: "jichu",
                 name: "游戏基础配置",
-                // component: GameInfoConf,
                 component: () =>
                     import(
                         /* webpackChunkName: "about" */ "../views/GameInfoConf.vue"
@@ -40,8 +39,7 @@ const routes = [
     {
         path: "/about",
         name: "SDK配置发行",
-        component: () =>
-            import(/* webpackChunkName: "about" */ "../views/About.vue"),
+        component: () => import("../views/About.vue"),
         children: [
             {
                 path: "sokpei",
@@ -60,9 +58,10 @@ const routes = [
             }
         ]
     },
+    //全局
     {
         path: "*",
-        name: "adjust token",
+        name: "adjust1 token",
         component: error404
     }
 ];

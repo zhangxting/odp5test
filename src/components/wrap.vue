@@ -4,9 +4,7 @@
         <el-container>
             <Aside></Aside>
             <el-main>
-                <slot>
-                    <!--<el-button type="danger">dafdsa</el-button>-->
-                </slot>
+                <slot></slot>
             </el-main>
         </el-container>
     </el-container>
@@ -24,4 +22,9 @@ export default {
 };
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.el-main {
+    background-color: #fbe9e7;
+    border: 20px solid #ffffff;
+}
+</style>

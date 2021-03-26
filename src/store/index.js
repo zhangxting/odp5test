@@ -17,7 +17,9 @@ export default new Vuex.Store({
         //游戏名列表
         gameList: null,
         //语言包
-        lang: lang
+        lang: lang,
+        //aside btn
+        asidedBtn: false
     },
     getters,
     mutations,

@@ -1,22 +1,18 @@
 <template>
     <div class="home">
-        <!--123-->
-        <img alt="Vue logo" src="../assets/logo.png" />
-        1231
+        我是标题君哦！这里会有面包也会有屑，听说有人模仿我
         <router-view />
-        <!--lallalala-->
-        <!--<div>{{ $route.name }}</div>-->
     </div>
 </template>
 
 <script>
-// @ is an alias to /src
-//import HelloWorld from "@/components/HelloWorld.vue";
-
 export default {
     name: "Home",
-    components: {
-        //HelloWorld,
-    }
+    components: {}
 };
 </script>
+<style lang="scss">
+.home {
+    background-color: #fbe9e7;
+}
+</style>
