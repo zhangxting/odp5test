@@ -1,10 +1,11 @@
 <template>
     <el-aside class="leftnav" v-show="asidedBtn">
         <div id="nav">
-            <router-link to="/home">基础信息匹配</router-link>
+            <router-link to="/home">基础信息配置</router-link>
             <router-link to="/home/jichu">基础配置</router-link>
             <router-link to="/home/canshu">SDK配置发行</router-link>
-            <router-link to="/about">SDK配置发行</router-link>
+            <router-link to="/about">CP参数导出</router-link>
+            <router-link to="/about/sokpei">支付套餐配置</router-link>
         </div>
     </el-aside>
 </template>

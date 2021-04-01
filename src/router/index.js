@@ -43,7 +43,7 @@ const routes = [
         children: [
             {
                 path: "sokpei",
-                name: "SDK配置文件",
+                name: "SDK配置文件ddedede",
                 component: Home
             },
             {
